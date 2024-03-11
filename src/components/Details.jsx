@@ -74,7 +74,7 @@ export default function Details({ weatherData }) {
             loading="lazy"
             src="https://s3-alpha-sig.figma.com/img/fac3/d34c/9de36001a0149bb1cb5ca78b1687489f?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SJXRVKTgl32x4wCl~rQx8et-LBW8j-bzrgHnbOGvk5nA38ovybQnynamNLmyg8lFlECevNWBZlZW5rAvFw8smGg2O1wxWcXxrnka2A6QUhQg9IAaZX63brvIoiDv-r5S-T29jUOxG4tyD5N~CD8unYkhlrcJ5KVXBebnDi8~Nnxw9uniEo6rQJNU5NUFf0~W2cyidfB1PALLsof1yNbZrsxnvnSEgEAZJw~RQSZfHbuqIWSHqQ1TFUaXm-Hll3tavR02gMPSrZHHfsWefFbIUXtcnB9RWWoRbuUpYdogsiMbhS2bMBVBvl9r5LUb6V536JxWJRsMGQRX3YUusuEPJA__"
             className="object-cover absolute inset-0 size-full rounded-2xl"
-            alt=""
+            alt="newyork-img"
           />
           <div className="absolute text-center px-2 py-1 mb-2 ml-3 font-extralight bg-rose-500 rounded-md">
             LIVE
@@ -187,7 +187,7 @@ export default function Details({ weatherData }) {
       <div className="w-[full] mx-[21px] lg:mx-[120px] xl:mx-[180px] h-[1px] mt-6 rounded-2xl bg-[#D8D8D8]" />
       <div className="flex justify-between mt-6 font-bold text-[#003339] px-[21px] lg:px-[120px] xl:px-[180px]">
         <div className="flex-1 my-auto text-lg">Temperature</div>
-        <select className="flex items-center justify-center text-xs px-2 py-2 bg-white rounded-md border border-solid outline-none border-[#003339]">
+        <select aria-label="Month" className="flex items-center justify-center text-xs px-2 py-2 bg-white rounded-md border border-solid outline-none border-[#003339]">
           <option>Last month</option>
         </select>
       </div>
